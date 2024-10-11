@@ -116,5 +116,27 @@ h1{
 
 }
 .Unit1{
-	
+	width: 48%;
+	position:absolute;
+	left: 5px;
+	background-color: salmon;
+	color: ghostwhite;
+	border:2px ghostwhite;
+	border-radius:5%;
+	font-family:'Times New Roman', Times, serif;
+	font-size:2em;
+	text-align:center;	
+}
+
+.Unit3{
+width:48%;
+	position: absolute;
+	right:5px;
+	background-color: salmon;
+	color: ghostwhite;
+	border:2px ghostwhite;
+	border-radius:5%;
+	font-family:'Times New Roman', Times, serif;
+	font-size:2em;
+	text-align:center;	
 }
