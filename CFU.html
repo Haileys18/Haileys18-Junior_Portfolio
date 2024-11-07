@@ -1,57 +1,237 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Portfolio-CFU</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-	<link href="favicon.png" rel="icon" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-CFUs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cfu.css">
+
 </head>
-<body>
- <div class="banner">
-		Thomas A. Edison CTE HS
-		<img src="avatar.png" id="logo">
-		<h1>Web Development</h1>
-		<h1>Programming and Prototyping</h1>
-		<h1>School Year 2024-25</h1>
-		<h1>Hailey Sooknanan</h1>
-		
-	</div>
-  <div class="container" id ="Unit1">
-    Unit 1
-		<h1>CFU 1</h1>
-   <iframe frameborder="0" width="50%" height="50%" 
-        src="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_1.py"></iframe>
-    <h1>CFU 2</h1>
-     <iframe frameborder="0" width="50%" height="50%" 
-        src="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_2.py"></iframe>
-    <h1>CFU 3</h1>
-     <iframe frameborder="0" width="50%" height="50%" 
-        src="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_3.py"></iframe>
-	</div>
-   <div class="container" id = "Unit2">
-    Unit 2
-		<h1>CFU 4</h1>
-     <iframe frameborder="0" width="50%" height="50%" 
-        src="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_4.py"></iframe>
-     <h1>CFU 5</h1>
-      <iframe frameborder="0" width="50%" height="50%" 
-        src="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_5.py"></iframe>
-     <h1>CFU 6</h1>
-      <iframe frameborder="0" width="50%" height="50%" 
-        src="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_6.py"></iframe>
-	</div>
-   <div class="container" id="Unit3">
-    Unit 3
-		<h1>CFU 7</h1>
-     <iframe frameborder="0" width="50%" height="50%" 
-        src="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_7.py"></iframe>
-	</div>
-	<div class="menu">MENU
-        <a href="index.html">Home</a>
-	<a href="">CFUs</a>
-	<a href="">Labs</a>
-	<a href="">Projects</a>
-	
-	<a href="">About</a>
-	<a href="">Earsketch</a>
+<div class="pagination">
+  <a href="#section-1">Inline page 1</a>
+  <a href="#section-2">Inline page 2</a>
+  <a href="#section-3">Inline page 3</a>
+  <a href="#section-4">Inline page 4</a>
+  <a href="#section-5">Inline page 5</a>
+  <a href="#section-6">Inline page 6</a>
+  <a href="#section-7">Inline page 7</a>
+</div>
+
+<div class="controls">
+  <button class="previous" onclick="window.scrollBy(-100, 0)">
+    <svg viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+    </svg>
+  </button>
+  <button class="next" onclick="window.scrollBy(100, 0)">
+    <svg viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+      <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+    </svg>
+  </button>
+</div>
+
+<section id="section-1">
+  <article class="card">
+    <div class="dropdown">
+    <picture>
+       <img src="https://assets.codepen.io/2585/Whoa.svg" height="500" width="500">
+    </picture>
+   <div class="dropdown-content"> <iframe frameborder="0" width="150%" height="200%"   src="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_1.py"></iframe>
+   </div> 
+    </div>
+    <h5>#CFU 1</h5>
+    <p>Creating A Variable For First and Last name</p>
+    <a href="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_1.py">Check it out</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Walking+Contradiction.svg" height="500" width="500">
+    </picture>
+    <div id="div2"> <iframe frameborder="0" width="150%" height="150%" 
+        src="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_1.py"></iframe></div>
+    <h5>Consectetur adipiscing elit</h5>
+    <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    <a href="https://www.transhumans.xyz">Some action</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img class="card-img" src="https://assets.codepen.io/2585/Polka+Pup.svg" alt="placeholder-hand-drawn-vector" height="500" width="500">
+    </picture>
+    <h5>Sed do eiusmod tempor incididunt</h5>
+    <p>Duis aute irure dolor in reprehenderit.</p>
+    <a href="https://www.transhumans.xyz">Ready</a>
+  </article>
+</section>
+<section id="section-2">
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Pilot.svg" height="500" width="500">
+    </picture>
+    <h5>Lorem ipsum dolor sit amet</h5>
+    <p>Ut enim ad minim veniam, quis nostrud.</p>
+    <a href="https://www.transhumans.xyz">Check it out</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Cube+Leg.svg" height="500" width="500">
+    </picture>
+    <h5>Consectetur adipiscing elit</h5>
+    <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    <a href="https://www.transhumans.xyz">Some action</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img class="card-img" src="https://assets.codepen.io/2585/Growth.svg" alt="placeholder-hand-drawn-vector" height="500" width="500">
+    </picture>
+    <h5>Sed do eiusmod tempor incididunt</h5>
+    <p>Duis aute irure dolor in reprehenderit.</p>
+    <a href="https://www.transhumans.xyz">Ready</a>
+  </article>
+</section>
+<section id="section-3">
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Gamestation.svg" height="500" width="500">
+    </picture>
+    <h5>Lorem ipsum dolor sit amet</h5>
+    <p>Ut enim ad minim veniam, quis nostrud.</p>
+    <a href="https://www.transhumans.xyz">Check it out</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Kiddo.svg" height="500" width="500">
+    </picture>
+    <h5>Consectetur adipiscing elit</h5>
+    <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    <a href="https://www.transhumans.xyz">Some action</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img class="card-img" src="https://assets.codepen.io/2585/Reflecting.svg" alt="placeholder-hand-drawn-vector" height="500" width="500">
+    </picture>
+    <h5>Sed do eiusmod tempor incididunt</h5>
+    <p>Duis aute irure dolor in reprehenderit.</p>
+    <a href="https://www.transhumans.xyz">Ready</a>
+  </article>
+</section>
+<section id="section-4">
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Rogue.svg" height="500" width="500">
+    </picture>
+    <h5>Lorem ipsum dolor sit amet</h5>
+    <p>Ut enim ad minim veniam, quis nostrud.</p>
+    <a href="https://www.transhumans.xyz">Check it out</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Waiting.svg" height="500" width="500">
+    </picture>
+    <h5>Consectetur adipiscing elit</h5>
+    <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    <a href="https://www.transhumans.xyz">Some action</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img class="card-img" src="https://assets.codepen.io/2585/Runner.svg" alt="placeholder-hand-drawn-vector" height="500" width="500">
+    </picture>
+    <h5>Sed do eiusmod tempor incididunt</h5>
+    <p>Duis aute irure dolor in reprehenderit.</p>
+    <a href="https://www.transhumans.xyz">Ready</a>
+  </article>
+</section>
+<section id="section-5">
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Plants.svg" height="500" width="500">
+    </picture>
+    <h5>Lorem ipsum dolor sit amet</h5>
+    <p>Ut enim ad minim veniam, quis nostrud.</p> 
+    <a href="https://www.transhumans.xyz">Check it out</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Coffee.svg" height="500" width="500">
+    </picture>
+    <h5>Consectetur adipiscing elit</h5>
+    <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    <a href="https://www.transhumans.xyz">Some action</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img class="card-img" src="https://assets.codepen.io/2585/Chaotic+Good.svg" alt="placeholder-hand-drawn-vector" height="500" width="500">
+    </picture>
+    <h5>Sed do eiusmod tempor incididunt</h5>
+    <p>Duis aute irure dolor in reprehenderit.</p>
+    <a href="https://www.transhumans.xyz">Ready</a>
+  </article>
+</section>
+<section id="section-6">
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Jumping.svg" height="500" width="500">
+    </picture>
+    <h5>Lorem ipsum dolor sit amet</h5>
+    <p>Ut enim ad minim veniam, quis nostrud.</p>
+    <a href="https://www.transhumans.xyz">Check it out</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Whoa.svg" height="500" width="500">
+    </picture>
+    <h5>Consectetur adipiscing elit</h5>
+    <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    <a href="https://www.transhumans.xyz">Some action</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img class="card-img" src="https://assets.codepen.io/2585/Pacheco.svg" alt="placeholder-hand-drawn-vector" height="500" width="500">
+    </picture>
+    <h5>Sed do eiusmod tempor incididunt</h5>
+    <p>Duis aute irure dolor in reprehenderit.</p>
+    <a href="https://www.transhumans.xyz">Ready</a>
+  </article>
+</section>
+<section id="section-7">
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Meela+Pantalones.svg" height="500" width="500">
+    </picture>
+    <h5>Lorem ipsum dolor sit amet</h5>
+    <p>Ut enim ad minim veniam, quis nostrud.</p>
+    <a href="https://www.transhumans.xyz">Check it out</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img src="https://assets.codepen.io/2585/Groceries.svg" height="500" width="500">
+    </picture>
+    <h5>Consectetur adipiscing elit</h5>
+    <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    <a href="https://www.transhumans.xyz">Some action</a>
+  </article>
+  
+  <article class="card">
+    <picture>
+      <img class="card-img" src="https://assets.codepen.io/2585/Fling.svg" alt="placeholder-hand-drawn-vector" height="500" width="500">
+    </picture>
+    <h5>Sed do eiusmod tempor incididunt</h5>
+    <p>Duis aute irure dolor in reprehenderit.</p>
+    <a href="https://www.transhumans.xyz">Ready</a>
+  </article>
+</section>
