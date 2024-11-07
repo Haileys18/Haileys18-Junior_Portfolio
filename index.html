@@ -1,50 +1,102 @@
-
-
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Junior Portfolio</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-	<link href="favicon.png" rel="icon" type="image/png">
-	<style>
-		#name{
-			text-align: right;
-			font-size: 180px;
-      height: 120px;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-  <div id = "name">
-		<h1 >Hailey Sooknanan</h1>
-		</div>
-  <div class="banner">
-		Thomas A. Edison CTE HS
-		<img src="avatar.png" id="logo">
-		<h1>Web Development</h1>
-		<h1>Programming and Prototyping</h1>
-		<h1>School Year 2024-25</h1>
-          </div>
-         
-	<div class="container">
-		<iframe frameborder="0" width="50%" height="50%" 
-        src="https://py3.codeskulptor.org/#user309_frkCXMOiTz_0.py"></iframe>
-		<iframe frameborder="0" width="100%" height="900px" 
-        src="https://py3.codeskulptor.org/#user308_1gK1mPolQKk7FMj.py"></iframe>
-		https://py3.codeskulptor.org/#user309_frkCXMOiTz_0.py
-	</div>
-	<div class="menu">MENU
-	<a href="CFU.html">CFUs</a>
-	<a href="">Labs</a>
-	<a href="">Projects</a>
-	
-	<a href="">About</a>
-	<a href="">Earsketch</a>
+   
+    <div class="retro-window">
+        <div class="title-bar">
+            <div class="controls">
+               <img src="control.png" alt="control">
+            </div>
+        </div>
+        <div class="content" id="scrollable-content">
+            <div class="inner-content">
+                <center>
+<h1> Welcome to my porfolio!!</h1>
+                   <h2>BY:Hailey Sooknanan</h2>
+                    <p id="intro">This website showcases the work I have done within my CTE shop for design and development. Mainly working on webpages but occasional programming and designing my own games. Down below you can see each file that leads to the page of set contents, along with other resources.</p>
+                   
+                         <a href="https://www.w3schools.com/#gsc.tab=0" class="w3schools"><img src="search.png" alt="search" width="300px" height="150px"> </a>
+                    <figcaption>w3schools</figcaption>
+                <a href="CFU.html" class="lab"><div class="img-container"></div></a><figcaption>CFUs</figcaption>
+                        
+                       
+                <a href="projects.html" class="projects"> <div class="img-container"></div></a>
+                <figcaption>Projects</figcaption>
+                    
+                   
+                </center>
 
-	</div>
+
+
+
+
+
+                    
+            </div>
+        </div>
+        <div class="scroll-bar">
+            <div class="scroll-left" onclick="moveThumb(-10)">&#9664;</div>
+            <div class="scroll-track">
+                <div class="scroll-thumb" id="scroll-thumb"></div>
+            </div>
+            <div class="scroll-right" onclick="moveThumb(10)">&#9654;</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    
+<div class="note-window">
+    <div class="exit-bar">
+        <div class="exit" style="cursor: pointer;">
+          &#9632;
+        &#9632;
+           &#9632;
+        </div>
+    </div>
+    <div class="note-content">
+        <h1>Reminders</h1>
+      <b>  <ul>
+            <li>Do Homework!</li>
+            <li>Do the dishes!</li>
+        </ul>
+      </b>
+    </div>
+</div>
+
+    <div class="top-window" style="opacity: 65%;">
+        <div class="top-bar">
+            <div class="exit" style="cursor: pointer;">
+              &#9632;
+            &#9632;
+               &#9632;
+            </div>
+        </div>
+        </div>
+
+        
+       
+<div class="left-tab">
+    <div class="top-bar2">
+        <div class="exit2" style="cursor: pointer;">
+          &#9632;
+        &#9632;
+           &#9632;
+        </div>
+    </div>
+    <div class="left-content">
+        <iframe src="https://giphy.com/embed/VbtL152JT1FKIH7dVU" width="310" height="230" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    </div>
+    </div>
 
 </body>
-
 </html>
