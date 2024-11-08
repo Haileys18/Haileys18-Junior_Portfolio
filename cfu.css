@@ -356,5 +356,17 @@ html {
 .card:hover .overlay {
     opacity: 1;
 }
+#div2{
+  background-color: #9F2B68;
+}
 
+#div3{
+  background-color: 	#CC5500;
+}
 
+#div4{
+  background-color: 	#4F7942;
+}
+#div5{
+  background-color: #87CEEB;
+}
