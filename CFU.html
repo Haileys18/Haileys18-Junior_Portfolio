@@ -8,8 +8,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="cfu.css">
+  <style>
+  body {margin:0;}
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #857e7e;
+  }
+
+  .active {
+    background-color: #7a002b ;
+  }
+  </style>
 </head>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
 <div class="pagination">
   <a href="#section-1">Inline page 1</a>
   <a href="#section-2">Inline page 2</a>
@@ -32,20 +71,25 @@
     </svg>
   </button>
 </div>
+  <section id="section-1">
+    <article class="card">
+      <div class="container">
+        <picture>
+          <img src="https://assets.codepen.io/2585/Whoa.svg" height="500" width="500">
+        </picture>
+        <div class="overlay">
+          <div id="div2"> <iframe frameborder="0" width="500px" height="400px" 
+            src="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_1.py"></iframe></div>
+        </div>
+      </div>
+      <h5>#CFU 1</h5>
+      <p>Creating A Variable For First and Last name</p>
+    </article>
+    <!-- Repeat for other cards as needed -->
+  
 
-<section id="section-1">
-  <article class="card">
-    <div class="dropdown">
-    <picture>
-       <img src="https://assets.codepen.io/2585/Whoa.svg" height="500" width="500">
-    </picture>
-   <div class="dropdown-content"> <iframe frameborder="0" width="150%" height="200%"   src="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_1.py"></iframe>
-   </div> 
-    </div>
-    <h5>#CFU 1</h5>
-    <p>Creating A Variable For First and Last name</p>
-    <a href="https://py3.codeskulptor.org/#user309_wkbV5wQXBE_1.py">Check it out</a>
-  </article>
+    <!-- Repeat for other cards as needed -->
+  
   
   <article class="card">
     <picture>
